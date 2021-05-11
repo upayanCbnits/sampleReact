@@ -1,0 +1,85 @@
+.Appx1{
+  width: 450px;
+  height: 250px;
+  border: 8px solid black;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+.Appx2{
+  text-align: center;
+  color: blue;
+}
+.Appx3{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+}
+.Appx4{
+  width: 75%;
+}
+.Appx5{
+  display: flex;
+  justify-content: center;
+}
+.Appx6{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.inputStyle{
+  margin-bottom: 10px;
+}
+.checkPass{
+  margin-left: -4px;
+}
+
+@media screen and (max-width:768px) {
+  
+}
+
+.table{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.pageNoContainer{
+  margin-top: 20px;
+}
+
+td:nth-child(1) {
+  width: 200px;
+  background: #ddd;
+  }
+
+td:nth-child(2) {
+  width: 200px;
+  background: #ddd;
+}
+
+td:nth-child(3) {
+  width: 100px;
+  background: #ddd;
+ }
+
+ .pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+.no-drop {
+  cursor: no-drop;
+}
