@@ -13,6 +13,7 @@ class Child extends React.Component {
             array1: [] ,
             activePage: '' ,
             loader: false
+            
         }
         this.pageSplit = this.pageSplit.bind(this);
         this.arraySplit = this.arraySplit.bind(this);
